@@ -1,4 +1,4 @@
-# Title Password Validation Regex
+# Password Validation using Regex
 
 Welcome to the world of regular expressions, or simply, regex! If you've ever felt the need to find, replace, or validate text patterns, regex is your go-to tool. This tutorial is your friendly guide to understanding a regex example to validate password inputs.
 
