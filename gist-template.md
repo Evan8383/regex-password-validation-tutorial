@@ -37,18 +37,18 @@ In regular expressions, anchors are special characters that specify a position i
 
 - ^ - The caret symbol ^ is the start-of-string anchor. It asserts that the following pattern must start at the beginning of the string. For example, the regex ^abc will match any string that starts with "abc".
 
-- \$ - The dollar sign \$ is the end-of-string anchor. It states that the pattern must be at the end of the string to match. For example, the regex abc$ will match any string that ends with "abc".\
+- \$ - The dollar sign \$ is the end-of-string anchor. It states that the pattern must be at the end of the string to match. For example, the regex abc$ will match any string that ends with "abc".
 
 Anchors are a powerful tool in regex, allowing you to specify not just what you want to match, but where within the string you want to match it.
 
 ### Quantifiers
-In regular expressions, quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. Here are the main types of quantifiers found in our example:
+Quantifiers in regex determine how many instances of a character, group, or character class must be included in the input for the string to match. Here are the main types of quantifiers found in our example:
 
-- . - The Dot matches any character except line breaks.
+- . - The Dot matches any character excluding line breaks.
 
-- \* - The asterisk means "zero or more" of the preceding element. For example, in our example, .*[A-Z] would match "A", "AAA", etc., and even an empty string.
+- \* - The asterisk is used to specify "zero or more" of the next element. For example, in our example, .*[A-Z] would match "A", "AAA", etc., and even an empty string.
 
-- ? - The question mark means "zero or one" of the preceding element. It makes the preceding element optional. For example, a? would match "a" and an empty string.
+- ? - The question is used to specify "zero or one" of the next element. It makes the preceding element optional. For example, a? would match "a" and an empty string.
 
 - {n} - Curly brackets are used to specify a specific number of occurrences. For example, a{3} would match exactly "aaa".
 
