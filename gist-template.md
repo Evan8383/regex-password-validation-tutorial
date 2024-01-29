@@ -37,7 +37,7 @@ In regular expressions, anchors are special characters that specify a position i
 
 - ^ - The caret symbol ^ is the start-of-string anchor. It asserts that the following pattern must start at the beginning of the string. For example, the regex ^abc will match any string that starts with "abc".
 
-- \$ - The dollar sign \$ is the end-of-string anchor. It asserts that the preceding pattern must be at the end of the string. For example, the regex abc$ will match any string that ends with "abc".\
+- \$ - The dollar sign \$ is the end-of-string anchor. It states that the pattern must be at the end of the string to match. For example, the regex abc$ will match any string that ends with "abc".\
 
 Anchors are a powerful tool in regex, allowing you to specify not just what you want to match, but where within the string you want to match it.
 
