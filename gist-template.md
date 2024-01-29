@@ -56,13 +56,13 @@ In regular expressions, quantifiers specify how many instances of a character, g
 
 - {n,m} - Two numbers separated by a comma in curly brackets specify a range of occurrences. For example, a{2,3} would match "aa" and "aaa", but not "a" or "aaaa".
 
-  This is what is used in out example. Our usage of the curly braces and two numbers separated by a comma indicates, the password must be at least 8 characters long, but not longer than 144 characters.
+  This is what is used in our example. Our usage of the curly braces and two numbers separated by a comma indicates, the password must be at least 8 characters long, but not longer than 144 characters.
 
 Quantifiers can be used with any character, character class, or grouping. They are a powerful tool in regex, allowing you to specify complex patterns with a simple syntax.
 
 ### Grouping Constructs
 
-In out example, the grouping constructs are the parts within parentheses (). They are used here mainly for lookahead assertions. Let's break them down:
+In our example, the grouping constructs are the parts within parentheses (). They are used here mainly for lookahead assertions. Let's break them down:
 
 - (?=.[a-z]) - This is a positive lookahead assertion. It checks if there is at least one lowercase letter somewhere in the string. The . matches any character, and [a-z] matches any lowercase letter. So, (?=.[a-z]) ensures that the string contains at least one lowercase letter.
 
